@@ -4,14 +4,14 @@
 # In[32]:
 
 
-import pickle
+import pickle5
 from flask import Flask,render_template,request
 
 
 # In[16]:
 
 
-machinemodel=pickle.load(open('mymodelsave.pkl','rb'))
+machinemodel=pickle5.load(open('mymodelsave.pkl','rb'))
 
 
 # In[18]:
